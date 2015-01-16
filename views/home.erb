@@ -1,0 +1,31 @@
+<style>  
+	body {
+	background: url('http://www.andreapickens.com/images/map.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size:cover;
+	font-size: 18px;
+	color: white;
+}
+input[type=text] {
+	padding:5px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+input[type=submit] {
+	padding: 6px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	color: #499885;
+	background: #a4efdc; 
+	border:0 none;
+	cursor:pointer;
+	}
+</style>
+<form method="post" action="/weather">
+    <h1>LET US KNOW YOUR<br>CITY OR ZIPCODE</h1> 
+    <input id="form_input"type="text" name="post[location]" placeholder="Your Location"/>
+    <input id="submit_button" type="submit" name="Search" value="Forecast Me"/>
+</form>
+</div>
+</div>
